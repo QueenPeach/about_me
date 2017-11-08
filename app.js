@@ -21,17 +21,53 @@ if(myChickens === 'Yes' || myChickens === 'yes') {
   alert('Correct! If you ever need fresh eggs you know where to ask.')
 } else {
   console.log('false', myChickens);
-  alert('I actually do owe 50 chickens, I know, crazy!');
+  alert('I actually do have 50 chickens, I know, crazy!');
 }
 
-var myBirthday = prompt('Is my birthday November 17th?');
-myBirthday = myBirthday.toUpperCase();
+var myBirthday = prompt('Is my birthday Feburary 29th?');
+myBirthday = myBirthday.toLowerCase();
 console.log('my birthday:', myBirthday);
 
 if(myBirthday === 'Yes' || myBirthday === 'yes') {
-  console.log('true', myBirthday);
-  alert('Yes, Happy birthday to me!')
+  console.log('false', myBirthday);
+  alert('Wrong!');
 } else {
   console.log('false', myBirthday);
-  alert('Wrong, it is the 17th.');
+  alert('It\'s November 17th!');
+}
+
+var favFood = prompt('Is my favorite food Mexican?')
+favFood = favFood.toLowerCase();
+console.log('favorite food:', favFood);
+
+if(favFood === 'Yes' || favFood === 'yes') {
+  console.log('true', favFood);
+  alert('Nachos! Burritos! Tacos! Oh my!');
+} else {
+  console.log('false', favFood);
+  alert('Pssh, Mexican food is the best!');
+}
+
+var favColor = prompt('Is my favorite color gray?')
+favColor = favColor.toLowerCase();
+console.log('favorite color:', favColor);
+
+if(favColor === 'Yes', favColor === 'yes') {
+console.log('true', favColor);
+alert('Yes, GRAY IS TOTALLY A COLOR!')
+} else {
+  console.log('false', favColor);
+  alert('It is gray, but purple\'s cool too!');
+}
+
+var myCorgi = prompt('Is one of my dogs a Corgi?')
+myCorgi = myCorgi.toLowerCase();
+console.log('my dog:', myCorgi);
+
+if(myCorgi === 'Yes' || myCorgi === 'yes') {
+  console.log('true', myCorgi);
+  alert('Correct! His name is Bodhi!');
+} else {
+  console.log('false', myCorgi);
+  alert('I do have a Corgi loaf!');
 }

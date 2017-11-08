@@ -1,0 +1,20 @@
+header {
+  text-align: center;
+  background-color: #68675e;
+  border-style: dotted;
+  border-color: #EFA8DB;
+}
+
+body {
+  background-color: #68675e;
+}
+
+main {
+  text-align: center;
+  background-color: #EFA8DB;
+}
+
+
+footer {
+  background-color: #68675e;
+}
