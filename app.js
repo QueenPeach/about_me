@@ -12,13 +12,13 @@ if(playGame === 'Yes' || playGame === 'yes') {
   alert('Too bad, you\'re playing anyways!');
 }
 
-var myChickens = prompt('Do I have 50 chickens?')
+var myChickens = prompt('Do I have 50 chickens?');
 myChickens = myChickens.toLowerCase();
 console.log('number of chickens:', myChickens);
 
 if(myChickens === 'Yes' || myChickens === 'yes') {
   console.log('true', myChickens);
-  alert('Correct! If you ever need fresh eggs you know where to ask.')
+  alert('Correct! If you ever need fresh eggs you know where to ask.');
 } else {
   console.log('false', myChickens);
   alert('I actually do have 50 chickens, I know, crazy!');
@@ -36,7 +36,7 @@ if(myBirthday === 'Yes' || myBirthday === 'yes') {
   alert('It\'s November 17th!');
 }
 
-var favFood = prompt('Is my favorite food Mexican?')
+var favFood = prompt('Is my favorite food Mexican?');
 favFood = favFood.toLowerCase();
 console.log('favorite food:', favFood);
 
@@ -48,13 +48,13 @@ if(favFood === 'Yes' || favFood === 'yes') {
   alert('Pssh, Mexican food is the best!');
 }
 
-var favColor = prompt('Is my favorite color gray?')
+var favColor = prompt('Is my favorite color gray?');
 favColor = favColor.toLowerCase();
 console.log('favorite color:', favColor);
 
-if(favColor === 'Yes', favColor === 'yes') {
+if(favColor === 'Yes', favColor === 'yes'); {
 console.log('true', favColor);
-alert('Yes, GRAY IS TOTALLY A COLOR!')
+alert('Yes, GRAY IS TOTALLY A COLOR!');
 } else {
   console.log('false', favColor);
   alert('It is gray, but purple\'s cool too!');
