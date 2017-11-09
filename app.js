@@ -122,7 +122,6 @@ o--
 if(wrongState === false){
   alert('Nope, I\'ve never visted those states!');
 }
-
 console.log('tally', tally);
 
 alert('Congratulations!' You got '+ score +' 'out of seven.');
