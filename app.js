@@ -78,3 +78,12 @@ while(numSiblings === 4); {
   numSiblings = prompt('Nope, try again!');
   console.log('number of siblings:', numSiblings);
 }
+
+var counter = 4;
+while(numSiblings === 2) {
+  if(counter === 4) {
+    break;
+  }
+  counter++;
+}
+console.log('counter:', counter);
