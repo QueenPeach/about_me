@@ -116,7 +116,7 @@ function guessState() {
       var index = statesVisited.indexOf(guessedState);
       statesVisited.splice(index);
       var statesString = '';
-      for(var i = 0; i < statesVisited.length; i++) {
+      for(i = 0; i < statesVisited.length; i++) {
         statesString = statesString + statesVisited[i] + '\n';
       }
       alert('Correct! The other states are:' + '\n' + statesString);
