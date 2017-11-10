@@ -1,1 +1,5 @@
-# about_me
+# About Me Project
+
+## Authors
+Ashley Jordan  
+Steve Carpenter
