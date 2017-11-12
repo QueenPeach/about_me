@@ -1,17 +1,37 @@
 header {
   text-align: center;
-  background-color: #68675e;
+  background-color: #DEDBDA;
   border-style: dotted;
-  border-color: #EFA8DB;
+  border-bottom-width: -1px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+
+
 }
 
 body {
   background-color: #68675e;
+
 }
 
 main {
-  text-align: center;
-  background-color: #EFA8DB;
+  display: inline-block;
+  text-align: left;
+  background-color: #DEDBDA;
+  transform: translateX(23%);
+  border-style: dotted;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  list-style-type: none;
+}
+
+ul {
+  list-style-type: none;
+  text-align: right;
+  padding-bottom: 20px;
 }
 
 
